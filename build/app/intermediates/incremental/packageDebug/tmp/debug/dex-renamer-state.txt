@@ -1,7 +1,7 @@
-#Thu Jun 20 18:20:01 TRT 2024
-base.0=/home/salih/Documents/shineX/shinex/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-base.1=/home/salih/Documents/shineX/shinex/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
-base.2=/home/salih/Documents/shineX/shinex/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+#Sun Jul 14 19:17:22 TRT 2024
+base.0=/home/salih/Shinex/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.1=/home/salih/Shinex/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.2=/home/salih/Shinex/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
 path.0=classes.dex
 path.1=classes2.dex
 path.2=classes3.dex

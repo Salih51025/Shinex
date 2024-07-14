@@ -1,0 +1,1 @@
+ /home/salih/Shinex/.dart_tool/flutter_build/54371581ab41e4d343d71f717fb292a0/native_assets.yaml: 

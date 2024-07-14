@@ -1,51 +1,26 @@
 {
   "project_info": {
-    "project_number": "876652083302",
-    "project_id": "shinex-61a9d",
-    "storage_bucket": "shinex-61a9d.appspot.com"
+    "project_number": "572901578769",
+    "project_id": "shinex-a38ea",
+    "storage_bucket": "shinex-a38ea.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:876652083302:android:407b4ffad1456a960ed5a7",
+        "mobilesdk_app_id": "1:572901578769:android:bb2d08099b85e5e2c3b9b0",
         "android_client_info": {
           "package_name": "com.example.shinex"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "876652083302-ve80gj545a7sk50bctj38vctq23aehs0.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.shinex",
-            "certificate_hash": "ee16a8acbdf7443ef7515b3e5f8f64bf9ae00a1e"
-          }
-        },
-        {
-          "client_id": "876652083302-bbicocj785q8eajtldlqd57a66kf8ekn.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBG_xF5y7TyW-WeVHCAjyvZ7QvLA2POhaE"
+          "current_key": "AIzaSyDGPS6eWMLU4HVX7U5eOpGnLLGpZEuIzhM"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "876652083302-bbicocj785q8eajtldlqd57a66kf8ekn.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "876652083302-inl4lknimk69c7ledg406fjtp715plno.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.shinex"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

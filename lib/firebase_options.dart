@@ -24,15 +24,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -46,30 +40,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAqNgakWTcTpD5IfIMkJ2AIhVdiNrCum24',
-    appId: '1:876652083302:web:0867be52d9391e280ed5a7',
-    messagingSenderId: '876652083302',
-    projectId: 'shinex-61a9d',
-    authDomain: 'shinex-61a9d.firebaseapp.com',
-    storageBucket: 'shinex-61a9d.appspot.com',
+    apiKey: 'AIzaSyDkh3ULxJixHl1OsjmfIDqnpiqNTriH--0',
+    appId: '1:572901578769:web:fc7bdbad7f2b75cec3b9b0',
+    messagingSenderId: '572901578769',
+    projectId: 'shinex-a38ea',
+    authDomain: 'shinex-a38ea.firebaseapp.com',
+    storageBucket: 'shinex-a38ea.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBG_xF5y7TyW-WeVHCAjyvZ7QvLA2POhaE',
-    appId: '1:876652083302:android:407b4ffad1456a960ed5a7',
-    messagingSenderId: '876652083302',
-    projectId: 'shinex-61a9d',
-    storageBucket: 'shinex-61a9d.appspot.com',
+    apiKey: 'AIzaSyDGPS6eWMLU4HVX7U5eOpGnLLGpZEuIzhM',
+    appId: '1:572901578769:android:bb2d08099b85e5e2c3b9b0',
+    messagingSenderId: '572901578769',
+    projectId: 'shinex-a38ea',
+    storageBucket: 'shinex-a38ea.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAWnPLKSPguEtX290FjGcMgK_c3JXNt3Uw',
-    appId: '1:876652083302:ios:17c9c79416df7d6a0ed5a7',
-    messagingSenderId: '876652083302',
-    projectId: 'shinex-61a9d',
-    storageBucket: 'shinex-61a9d.appspot.com',
-    androidClientId: '876652083302-ve80gj545a7sk50bctj38vctq23aehs0.apps.googleusercontent.com',
-    iosClientId: '876652083302-inl4lknimk69c7ledg406fjtp715plno.apps.googleusercontent.com',
+    apiKey: 'AIzaSyC2WNRw2Eq7ytcDxLeW4xHK_Z13xtPq8Yg',
+    appId: '1:572901578769:ios:ae11507dfe0a2226c3b9b0',
+    messagingSenderId: '572901578769',
+    projectId: 'shinex-a38ea',
+    storageBucket: 'shinex-a38ea.appspot.com',
     iosBundleId: 'com.example.shinex',
   );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyC2WNRw2Eq7ytcDxLeW4xHK_Z13xtPq8Yg',
+    appId: '1:572901578769:ios:ae11507dfe0a2226c3b9b0',
+    messagingSenderId: '572901578769',
+    projectId: 'shinex-a38ea',
+    storageBucket: 'shinex-a38ea.appspot.com',
+    iosBundleId: 'com.example.shinex',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyDkh3ULxJixHl1OsjmfIDqnpiqNTriH--0',
+    appId: '1:572901578769:web:b139674000913e88c3b9b0',
+    messagingSenderId: '572901578769',
+    projectId: 'shinex-a38ea',
+    authDomain: 'shinex-a38ea.firebaseapp.com',
+    storageBucket: 'shinex-a38ea.appspot.com',
+  );
+
 }
